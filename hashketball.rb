@@ -1,4 +1,5 @@
 # Write your code here!
+require 'pry'
 def game_hash
   {
     :home => {
@@ -6,7 +7,7 @@ def game_hash
       :colors => [],
       :players => [
         {
-        :player_names => [""],
+        :player_name => "",
         :number => "",
         :shoe => "",
         :points => "",
@@ -14,7 +15,7 @@ def game_hash
         :assists => "",
         :blocks => "",
         :slam_dunks => ""
-        }        
+        }      
         ]
 
     },
